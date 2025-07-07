@@ -23,7 +23,7 @@ User interface design
 Input validation and error handling
 Technical documentation
 
-✨ Features
+ Features
 
  Comprehensive Analysis: Checks length, character types, and composition
  Scoring System: 0-100 scale with clear strength levels
@@ -36,12 +36,12 @@ Getting Started
 Prerequisites
 
 Python 3.7 or higher
-No additional libraries required (uses only built-in Python modules)
+No additional libraries are required (uses only built-in Python modules)
 
 Installation
 
 Clone the repository
-bash git clone https://github.com/yourusername/password-strength-checker.git
+bash git clone https://github.com/techdre/password-strength-checker.git
 cd password-strength-checker
 
 Run the program
@@ -63,8 +63,8 @@ Your password input is visible (this is the beginner version)
 The program never stores or logs your passwords
 Use Ctrl+C to exit at any time
 
-📊 Example Output
-🔒 SIMPLE PASSWORD STRENGTH CHECKER
+Example Output
+SIMPLE PASSWORD STRENGTH CHECKER
 ==================================================
 
 Password: ******** (hidden for security)
@@ -85,7 +85,7 @@ RECOMMENDATIONS:
 ------------------------------
 1. Add special characters (!, @, #, etc.)
 ==================================================
-🔧 Technical Details
+Technical Details
 Password Requirements Checked
 
 Length: Minimum 8 characters (recommended 12+)
@@ -111,7 +111,7 @@ Moderate: 40-59 points
 Weak: 20-39 points
 Very Weak: 0-19 points
 
-🛠️ Code Structure
+Code Structure
 Python # Main functions
 check_password_length()      # Validates minimum length
 check_uppercase_letters()    # Detects A-Z characters
@@ -120,7 +120,7 @@ check_numbers()             # Detects 0-9 characters
 check_special_characters()  # Detects special symbols
 calculate_password_score()  # Computes overall score
 analyze_password()          # Orchestrates analysis
-📈 Future Enhancements
+Future Enhancements
 
  Add regular expressions for advanced pattern detection
  Implement secure password input (hidden typing)
@@ -130,7 +130,7 @@ analyze_password()          # Orchestrates analysis
  Add a password generation feature
  Integration with breach databases
 
-🤝 Contributing
+ Contributing
 This is a learning project, but suggestions and improvements are welcome!
 
 Fork the repository
@@ -139,7 +139,7 @@ Commit your changes (git commit -am 'Add new feature')
 Push to the branch (git push origin feature/improvement)
 Create a Pull Request
 
-🙏 Acknowledgments
+ Acknowledgments
 
 Inspired by cybersecurity best practices
 Built as part of my professional development journey
